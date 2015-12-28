@@ -41,7 +41,6 @@
             UISwitch *switchView = [[UISwitch alloc] initWithFrame:CGRectZero];
             cell.accessoryView = switchView;
             [switchView setOn:NO animated:NO];
-//            [switchView addTarget:self action:@selector(switchChanged:) forControlEvents:UIControlEventValueChanged];
         } else {
             UISlider *slider = [[UISlider alloc] initWithFrame:CGRectZero];
             [cell.contentView addSubview:slider];
